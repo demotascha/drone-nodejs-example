@@ -23,11 +23,11 @@ pipeline:
     commands:
       - yarn run test
 
-  # lint:
-  #   image: node:8.6.0
-  #   group: testing
-  #   commands:
-  #     - yarn run lint
+  lint:
+    image: node:8.6.0
+    group: testing
+    commands:
+      - yarn run lint
 
   # publish:
   #   image: plugins/docker
