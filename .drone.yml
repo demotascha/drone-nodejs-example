@@ -1,6 +1,6 @@
 workspace:
   base: /var/www
-  path: drone/node-site
+  path: drone/node-example
 
 pipeline:
   # restore-cache:
